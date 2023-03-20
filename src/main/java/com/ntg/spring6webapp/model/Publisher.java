@@ -32,7 +32,7 @@ public class Publisher {
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     @Column(name = "id", nullable = false)
     private Long id;
-    private String name;
+    private String publisherName;
     private String address;
     private String city;
     private String state;

@@ -27,7 +27,7 @@ public class BootstrapData implements CommandLineRunner {
                 .build();
 
         Publisher publisher = Publisher.builder()
-                .name("Publisher 1")
+                .publisherName("Publisher 1")
                 .build();
 
 
